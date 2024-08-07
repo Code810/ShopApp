@@ -1,0 +1,37 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\seidb\\OneDrive\\Masaüstü\\BackendProjectApi\\ShopApp\\ShopApp\\wwwroot\\Images\\74c376f6-5d90-4ad1-b316-163c7b525c70.jpg",
+      "PackagePath": "staticwebassets\\Images\\74c376f6-5d90-4ad1-b316-163c7b525c70.jpg"
+    },
+    {
+      "Id": "C:\\Users\\seidb\\OneDrive\\Masaüstü\\BackendProjectApi\\ShopApp\\ShopApp\\wwwroot\\Images\\images.jpeg",
+      "PackagePath": "staticwebassets\\Images\\images.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\seidb\\OneDrive\\Masaüstü\\BackendProjectApi\\ShopApp\\ShopApp\\wwwroot\\Images\\laptops.webp",
+      "PackagePath": "staticwebassets\\Images\\laptops.webp"
+    },
+    {
+      "Id": "C:\\Users\\seidb\\OneDrive\\Masaüstü\\BackendProjectApi\\ShopApp\\ShopApp\\wwwroot\\Images\\phone.jpg",
+      "PackagePath": "staticwebassets\\Images\\phone.jpg"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.ShopApp.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.ShopApp.props",
+      "PackagePath": "build\\ShopApp.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.ShopApp.props",
+      "PackagePath": "buildMultiTargeting\\ShopApp.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.ShopApp.props",
+      "PackagePath": "buildTransitive\\ShopApp.props"
+    }
+  ],
+  "ElementsToRemove": []
+}
