@@ -141,3 +141,5 @@ C:\Users\seidb\OneDrive\Masaüstü\BackendProjectApi\ShopApp\ShopApp\bin\Debug\n
 C:\Users\seidb\OneDrive\Masaüstü\BackendProjectApi\ShopApp\ShopApp\bin\Debug\net8.0\MicroElements.OpenApi.FluentValidation.dll
 C:\Users\seidb\OneDrive\Masaüstü\BackendProjectApi\ShopApp\ShopApp\bin\Debug\net8.0\MicroElements.Swashbuckle.FluentValidation.dll
 C:\Users\seidb\OneDrive\Masaüstü\BackendProjectApi\ShopApp\ShopApp\bin\Debug\net8.0\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
+C:\Users\seidb\OneDrive\Masaüstü\BackendProjectApi\ShopApp\ShopApp\obj\Debug\net8.0\ShopApp.sourcelink.json
+C:\Users\seidb\OneDrive\Masaüstü\BackendProjectApi\ShopApp\ShopApp\bin\Debug\net8.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll

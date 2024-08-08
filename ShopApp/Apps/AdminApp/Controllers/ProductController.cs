@@ -1,4 +1,5 @@
 ﻿using AutoMapper;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using ShopApp.Apps.AdminApp.Dtos.ProductDto;
@@ -35,6 +36,7 @@ namespace ShopApp.Apps.AdminApp.Controllers
             return Ok(_mapper.Map<ProductReturnDto>(existProduct));
         }
         [HttpGet]
+        [Authorize]
         public async Task<IActionResult> Get(string? search, int page = 1)
         {
             var query = _shopAppContext.Products
