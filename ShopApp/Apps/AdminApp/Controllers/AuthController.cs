@@ -1,11 +1,10 @@
-﻿using Microsoft.AspNetCore.Identity;
+﻿using AutoMapper;
+using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
-using Microsoft.IdentityModel.Tokens;
 using ShopApp.Apps.AdminApp.Dtos.UserDto;
 using ShopApp.Entities;
-using System.IdentityModel.Tokens.Jwt;
-using System.Security.Claims;
-using System.Text;
+using ShopApp.Services.Interfaces;
 
 namespace ShopApp.Apps.AdminApp.Controllers
 {
@@ -13,15 +12,17 @@ namespace ShopApp.Apps.AdminApp.Controllers
     [ApiController]
     public class AuthController : ControllerBase
     {
-        public readonly UserManager<AppUser> _userManager;
-        public readonly RoleManager<IdentityRole> _roleManager;
-        public readonly IConfiguration _configuration;
+        private readonly UserManager<AppUser> _userManager;
+        private readonly RoleManager<IdentityRole> _roleManager;
+        private readonly IMapper _mapper;
+        private readonly ITokenService _tokenService;
 
-        public AuthController(UserManager<AppUser> userManager, RoleManager<IdentityRole> roleManager, IConfiguration configuration)
+        public AuthController(UserManager<AppUser> userManager, RoleManager<IdentityRole> roleManager, IMapper mapper, ITokenService tokenService)
         {
             _userManager = userManager;
             _roleManager = roleManager;
-            _configuration = configuration;
+            _mapper = mapper;
+            _tokenService = tokenService;
         }
 
         [HttpPost("register")]
@@ -56,29 +57,20 @@ namespace ShopApp.Apps.AdminApp.Controllers
             }
             var result = await _userManager.CheckPasswordAsync(existUser, loginDto.Password);
             if (!result) return BadRequest("Password or Email wrong");
-            //jwt
-            var handler = new JwtSecurityTokenHandler();
-            var privateKey = Encoding.UTF8.GetBytes(_configuration.GetSection("jwt:SecretKey").Value);
-            var credentials = new SigningCredentials(new SymmetricSecurityKey(privateKey), SecurityAlgorithms.HmacSha256);
-            var ci = new ClaimsIdentity();
-            ci.AddClaim(new Claim(ClaimTypes.NameIdentifier, existUser.Id));
-            ci.AddClaim(new Claim(ClaimTypes.Name, existUser.UserName));
-            ci.AddClaim(new Claim(ClaimTypes.GivenName, existUser.FullName));
-            ci.AddClaim(new Claim(ClaimTypes.Email, existUser.Email));
-            var roles = (await _userManager.GetRolesAsync(existUser))
-                .Select(r => new Claim(ClaimTypes.Role, r)).ToList();
-            ci.AddClaims(roles);
+            var roles = await _userManager.GetRolesAsync(existUser);
+            return Ok(new { token = _tokenService.GetToken(existUser, roles) });
 
-            var tokenDescriptor = new SecurityTokenDescriptor
-            {
-                SigningCredentials = credentials,
-                Expires = DateTime.Now.AddHours(1),
-                Subject = ci,
-                Audience = _configuration.GetSection("Jwt:Audience").Value,
-                Issuer = _configuration.GetSection("Jwt:Issuer").Value,
-            };
-            var token = handler.WriteToken(handler.CreateToken(tokenDescriptor));
-            return Ok(new { token = token });
+        }
+
+        [HttpGet]
+        [Authorize]
+        public async Task<IActionResult> UserProfile()
+        {
+            var existUser = await _userManager.FindByNameAsync(User.Identity.Name);
+            if (existUser == null) return NotFound();
+            return Ok(_mapper.Map<UserGetDto>(existUser));
+
+
         }
 
 

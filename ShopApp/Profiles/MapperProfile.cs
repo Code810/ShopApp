@@ -1,6 +1,7 @@
 ﻿using AutoMapper;
 using ShopApp.Apps.AdminApp.Dtos.CategoryDto;
 using ShopApp.Apps.AdminApp.Dtos.ProductDto;
+using ShopApp.Apps.AdminApp.Dtos.UserDto;
 using ShopApp.Entities;
 
 namespace ShopApp.Profiles
@@ -20,6 +21,7 @@ namespace ShopApp.Profiles
                 .ForMember(dest => dest.Image, map => map.MapFrom(src => url + "images/" + src.Image));
             CreateMap<Product, ProductReturnDto>();
             CreateMap<Category, CategoryInProductReturnDto>();
+            CreateMap<AppUser, UserGetDto>();
         }
     }
 }
