@@ -3,7 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.10.35122.118
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ShopApp", "ShopApp\ShopApp.csproj", "{6732D36F-AD23-4271-811E-328D66A5289E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ShopApp", "ShopApp\ShopApp.csproj", "{6732D36F-AD23-4271-811E-328D66A5289E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ShopApp.MVC", "ShopApp.MVC\ShopApp.MVC.csproj", "{FB215D63-814A-4019-AD56-FC5754021AC6}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,10 @@ Global
 		{6732D36F-AD23-4271-811E-328D66A5289E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6732D36F-AD23-4271-811E-328D66A5289E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6732D36F-AD23-4271-811E-328D66A5289E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FB215D63-814A-4019-AD56-FC5754021AC6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FB215D63-814A-4019-AD56-FC5754021AC6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FB215D63-814A-4019-AD56-FC5754021AC6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FB215D63-814A-4019-AD56-FC5754021AC6}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

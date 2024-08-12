@@ -3,28 +3,24 @@
   "WorkspaceRootPath": "C:\\Users\\seidb\\OneDrive\\Masa\u00FCst\u00FC\\BackendProjectApi\\ShopApp\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{6732D36F-AD23-4271-811E-328D66A5289E}|ShopApp\\ShopApp.csproj|c:\\users\\seidb\\onedrive\\masa\u00FCst\u00FC\\backendprojectapi\\shopapp\\shopapp\\apps\\adminapp\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6732D36F-AD23-4271-811E-328D66A5289E}|ShopApp\\ShopApp.csproj|solutionrelative:shopapp\\apps\\adminapp\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{FB215D63-814A-4019-AD56-FC5754021AC6}|ShopApp.MVC\\ShopApp.MVC.csproj|c:\\users\\seidb\\onedrive\\masa\u00FCst\u00FC\\backendprojectapi\\shopapp\\shopapp.mvc\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FB215D63-814A-4019-AD56-FC5754021AC6}|ShopApp.MVC\\ShopApp.MVC.csproj|solutionrelative:shopapp.mvc\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6732D36F-AD23-4271-811E-328D66A5289E}|ShopApp\\ShopApp.csproj|c:\\users\\seidb\\onedrive\\masa\u00FCst\u00FC\\backendprojectapi\\shopapp\\shopapp\\services\\interfaces\\itokenservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6732D36F-AD23-4271-811E-328D66A5289E}|ShopApp\\ShopApp.csproj|solutionrelative:shopapp\\services\\interfaces\\itokenservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{FB215D63-814A-4019-AD56-FC5754021AC6}|ShopApp.MVC\\ShopApp.MVC.csproj|c:\\users\\seidb\\onedrive\\masa\u00FCst\u00FC\\backendprojectapi\\shopapp\\shopapp.mvc\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FB215D63-814A-4019-AD56-FC5754021AC6}|ShopApp.MVC\\ShopApp.MVC.csproj|solutionrelative:shopapp.mvc\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6732D36F-AD23-4271-811E-328D66A5289E}|ShopApp\\ShopApp.csproj|c:\\users\\seidb\\onedrive\\masa\u00FCst\u00FC\\backendprojectapi\\shopapp\\shopapp\\services\\implementations\\tokenservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6732D36F-AD23-4271-811E-328D66A5289E}|ShopApp\\ShopApp.csproj|solutionrelative:shopapp\\services\\implementations\\tokenservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{6732D36F-AD23-4271-811E-328D66A5289E}|ShopApp\\ShopApp.csproj|c:\\users\\seidb\\onedrive\\masa\u00FCst\u00FC\\backendprojectapi\\shopapp\\shopapp\\apps\\adminapp\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6732D36F-AD23-4271-811E-328D66A5289E}|ShopApp\\ShopApp.csproj|solutionrelative:shopapp\\apps\\adminapp\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6732D36F-AD23-4271-811E-328D66A5289E}|ShopApp\\ShopApp.csproj|c:\\users\\seidb\\onedrive\\masa\u00FCst\u00FC\\backendprojectapi\\shopapp\\shopapp\\settings\\jwtsetting.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6732D36F-AD23-4271-811E-328D66A5289E}|ShopApp\\ShopApp.csproj|solutionrelative:shopapp\\settings\\jwtsetting.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{FB215D63-814A-4019-AD56-FC5754021AC6}|ShopApp.MVC\\ShopApp.MVC.csproj|c:\\users\\seidb\\onedrive\\masa\u00FCst\u00FC\\backendprojectapi\\shopapp\\shopapp.mvc\\viewmodels\\usertokenvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FB215D63-814A-4019-AD56-FC5754021AC6}|ShopApp.MVC\\ShopApp.MVC.csproj|solutionrelative:shopapp.mvc\\viewmodels\\usertokenvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6732D36F-AD23-4271-811E-328D66A5289E}|ShopApp\\ShopApp.csproj|c:\\users\\seidb\\onedrive\\masa\u00FCst\u00FC\\backendprojectapi\\shopapp\\shopapp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6732D36F-AD23-4271-811E-328D66A5289E}|ShopApp\\ShopApp.csproj|solutionrelative:shopapp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6732D36F-AD23-4271-811E-328D66A5289E}|ShopApp\\ShopApp.csproj|c:\\users\\seidb\\onedrive\\masa\u00FCst\u00FC\\backendprojectapi\\shopapp\\shopapp\\apps\\adminapp\\dtos\\userdto\\usergetdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6732D36F-AD23-4271-811E-328D66A5289E}|ShopApp\\ShopApp.csproj|solutionrelative:shopapp\\apps\\adminapp\\dtos\\userdto\\usergetdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{FB215D63-814A-4019-AD56-FC5754021AC6}|ShopApp.MVC\\ShopApp.MVC.csproj|c:\\users\\seidb\\onedrive\\masa\u00FCst\u00FC\\backendprojectapi\\shopapp\\shopapp.mvc\\views\\auth\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{FB215D63-814A-4019-AD56-FC5754021AC6}|ShopApp.MVC\\ShopApp.MVC.csproj|solutionrelative:shopapp.mvc\\views\\auth\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     }
   ],
   "DocumentGroupContainers": [
@@ -34,7 +30,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 6,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Bookmark",
@@ -46,80 +42,67 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "JwtSetting.cs",
-              "DocumentMoniker": "C:\\Users\\seidb\\OneDrive\\Masa\u00FCst\u00FC\\BackendProjectApi\\ShopApp\\ShopApp\\Settings\\JwtSetting.cs",
-              "RelativeDocumentMoniker": "ShopApp\\Settings\\JwtSetting.cs",
-              "ToolTip": "C:\\Users\\seidb\\OneDrive\\Masa\u00FCst\u00FC\\BackendProjectApi\\ShopApp\\ShopApp\\Settings\\JwtSetting.cs",
-              "RelativeToolTip": "ShopApp\\Settings\\JwtSetting.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAfAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-09T20:57:59.63Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "TokenService.cs",
-              "DocumentMoniker": "C:\\Users\\seidb\\OneDrive\\Masa\u00FCst\u00FC\\BackendProjectApi\\ShopApp\\ShopApp\\Services\\Implementations\\TokenService.cs",
-              "RelativeDocumentMoniker": "ShopApp\\Services\\Implementations\\TokenService.cs",
-              "ToolTip": "C:\\Users\\seidb\\OneDrive\\Masa\u00FCst\u00FC\\BackendProjectApi\\ShopApp\\ShopApp\\Services\\Implementations\\TokenService.cs",
-              "RelativeToolTip": "ShopApp\\Services\\Implementations\\TokenService.cs",
-              "ViewState": "AQIAAAkAAAAAAAAAAAAuwBQAAAAfAAAA",
+              "Title": "ProductController.cs",
+              "DocumentMoniker": "C:\\Users\\seidb\\OneDrive\\Masa\u00FCst\u00FC\\BackendProjectApi\\ShopApp\\ShopApp\\Apps\\AdminApp\\Controllers\\ProductController.cs",
+              "RelativeDocumentMoniker": "ShopApp\\Apps\\AdminApp\\Controllers\\ProductController.cs",
+              "ToolTip": "C:\\Users\\seidb\\OneDrive\\Masa\u00FCst\u00FC\\BackendProjectApi\\ShopApp\\ShopApp\\Apps\\AdminApp\\Controllers\\ProductController.cs",
+              "RelativeToolTip": "ShopApp\\Apps\\AdminApp\\Controllers\\ProductController.cs",
+              "ViewState": "AQIAABoAAAAAAAAAAAAhwCYAAAAQAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-09T12:01:16.007Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "ITokenService.cs",
-              "DocumentMoniker": "C:\\Users\\seidb\\OneDrive\\Masa\u00FCst\u00FC\\BackendProjectApi\\ShopApp\\ShopApp\\Services\\Interfaces\\ITokenService.cs",
-              "RelativeDocumentMoniker": "ShopApp\\Services\\Interfaces\\ITokenService.cs",
-              "ToolTip": "C:\\Users\\seidb\\OneDrive\\Masa\u00FCst\u00FC\\BackendProjectApi\\ShopApp\\ShopApp\\Services\\Interfaces\\ITokenService.cs",
-              "RelativeToolTip": "ShopApp\\Services\\Interfaces\\ITokenService.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAYAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-09T12:00:26.422Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\seidb\\OneDrive\\Masa\u00FCst\u00FC\\BackendProjectApi\\ShopApp\\ShopApp\\Program.cs",
-              "RelativeDocumentMoniker": "ShopApp\\Program.cs",
-              "ToolTip": "C:\\Users\\seidb\\OneDrive\\Masa\u00FCst\u00FC\\BackendProjectApi\\ShopApp\\ShopApp\\Program.cs",
-              "RelativeToolTip": "ShopApp\\Program.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-09T10:08:02.82Z",
+              "WhenOpened": "2024-08-12T12:45:41.234Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "AuthController.cs",
-              "DocumentMoniker": "C:\\Users\\seidb\\OneDrive\\Masa\u00FCst\u00FC\\BackendProjectApi\\ShopApp\\ShopApp\\Apps\\AdminApp\\Controllers\\AuthController.cs",
-              "RelativeDocumentMoniker": "ShopApp\\Apps\\AdminApp\\Controllers\\AuthController.cs",
-              "ToolTip": "C:\\Users\\seidb\\OneDrive\\Masa\u00FCst\u00FC\\BackendProjectApi\\ShopApp\\ShopApp\\Apps\\AdminApp\\Controllers\\AuthController.cs",
-              "RelativeToolTip": "ShopApp\\Apps\\AdminApp\\Controllers\\AuthController.cs",
-              "ViewState": "AQIAADUAAAAAAAAAAAAuwEcAAAAAAAAA",
+              "Title": "ProductController.cs",
+              "DocumentMoniker": "C:\\Users\\seidb\\OneDrive\\Masa\u00FCst\u00FC\\BackendProjectApi\\ShopApp\\ShopApp.MVC\\Controllers\\ProductController.cs",
+              "RelativeDocumentMoniker": "ShopApp.MVC\\Controllers\\ProductController.cs",
+              "ToolTip": "C:\\Users\\seidb\\OneDrive\\Masa\u00FCst\u00FC\\BackendProjectApi\\ShopApp\\ShopApp.MVC\\Controllers\\ProductController.cs",
+              "RelativeToolTip": "ShopApp.MVC\\Controllers\\ProductController.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAAAsAAAASAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-08T20:54:28.012Z",
+              "WhenOpened": "2024-08-12T12:39:16.202Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "UserGetDto.cs",
-              "DocumentMoniker": "C:\\Users\\seidb\\OneDrive\\Masa\u00FCst\u00FC\\BackendProjectApi\\ShopApp\\ShopApp\\Apps\\AdminApp\\Dtos\\UserDto\\UserGetDto.cs",
-              "RelativeDocumentMoniker": "ShopApp\\Apps\\AdminApp\\Dtos\\UserDto\\UserGetDto.cs",
-              "ToolTip": "C:\\Users\\seidb\\OneDrive\\Masa\u00FCst\u00FC\\BackendProjectApi\\ShopApp\\ShopApp\\Apps\\AdminApp\\Dtos\\UserDto\\UserGetDto.cs",
-              "RelativeToolTip": "ShopApp\\Apps\\AdminApp\\Dtos\\UserDto\\UserGetDto.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAAAAAA",
+              "DocumentIndex": 3,
+              "Title": "UserTokenVm.cs",
+              "DocumentMoniker": "C:\\Users\\seidb\\OneDrive\\Masa\u00FCst\u00FC\\BackendProjectApi\\ShopApp\\ShopApp.MVC\\ViewModels\\UserTokenVm.cs",
+              "RelativeDocumentMoniker": "ShopApp.MVC\\ViewModels\\UserTokenVm.cs",
+              "ToolTip": "C:\\Users\\seidb\\OneDrive\\Masa\u00FCst\u00FC\\BackendProjectApi\\ShopApp\\ShopApp.MVC\\ViewModels\\UserTokenVm.cs",
+              "RelativeToolTip": "ShopApp.MVC\\ViewModels\\UserTokenVm.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAAcAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-08T20:56:55.296Z",
+              "WhenOpened": "2024-08-12T12:35:10.166Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Login.cshtml",
+              "DocumentMoniker": "C:\\Users\\seidb\\OneDrive\\Masa\u00FCst\u00FC\\BackendProjectApi\\ShopApp\\ShopApp.MVC\\Views\\Auth\\Login.cshtml",
+              "RelativeDocumentMoniker": "ShopApp.MVC\\Views\\Auth\\Login.cshtml",
+              "ToolTip": "C:\\Users\\seidb\\OneDrive\\Masa\u00FCst\u00FC\\BackendProjectApi\\ShopApp\\ShopApp.MVC\\Views\\Auth\\Login.cshtml",
+              "RelativeToolTip": "ShopApp.MVC\\Views\\Auth\\Login.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAEAAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-12T11:01:08.594Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "AuthController.cs",
+              "DocumentMoniker": "C:\\Users\\seidb\\OneDrive\\Masa\u00FCst\u00FC\\BackendProjectApi\\ShopApp\\ShopApp.MVC\\Controllers\\AuthController.cs",
+              "RelativeDocumentMoniker": "ShopApp.MVC\\Controllers\\AuthController.cs",
+              "ToolTip": "C:\\Users\\seidb\\OneDrive\\Masa\u00FCst\u00FC\\BackendProjectApi\\ShopApp\\ShopApp.MVC\\Controllers\\AuthController.cs",
+              "RelativeToolTip": "ShopApp.MVC\\Controllers\\AuthController.cs",
+              "ViewState": "AQIAAAkAAAAAAAAAAIA1wBgAAAAqAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-12T10:58:57.13Z",
               "EditorCaption": ""
             }
           ]
